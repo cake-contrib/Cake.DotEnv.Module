@@ -1,8 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
+    <AssemblyName>Cake.DotEnv.Module</AssemblyName>
+    <RootNamespace>Cake.DotEnv.Module</RootNamespace>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PlatformTarget>anycpu</PlatformTarget>
+    <DebugType>portable</DebugType>
   </PropertyGroup>
+
+  <PropertyGroup>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\Cake.DotEnv.Module.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\SolutionInfo.cs" Link="SolutionInfo.cs" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Cake.Core" Version="0.33.0" PrivateAssets="All" />
