@@ -2,17 +2,24 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <id>Cake.DotEnv.Module</id>
-    <version>0.0.0</version>
+    <version>0.0.1</version>
     <authors>Jamie Phillips</authors>
     <owners>Jamie Phillips</owners>
     <description>Cake Module for using the dotenv file for settings local environment variables.</description>
     <summary>Cake Module for using the dotenv file for settings local environment variables.</summary>
     <licenseUrl>https://github.com/cake-contrib/Cake.DotEnv.Module/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/cake-contrib/Cake.DotEnv.Module/Cake.Netlify</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics/png/cake-contrib-medium.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <copyright>Copyright (c) Jamie Phillips 2017 - Present</copyright>
     <tags>Cake, Script, Build, DotEnv, Module</tags>
   </metadata>
   <files>
-  </files>
+    <file src="net461\Cake.DotEnv.Module.dll" target="lib\net461" />
+    <file src="net461\Cake.DotEnv.Module.pdb" target="lib\net461" />
+    <file src="net461\Cake.DotEnv.Module.xml" target="lib\net461" />
+    <file src="netstandard2.0\Cake.DotEnv.Module.dll" target="lib\netstandard2.0" />
+    <file src="netstandard2.0\Cake.DotEnv.Module.pdb" target="lib\netstandard2.0" />
+    <file src="netstandard2.0\Cake.DotEnv.Module.xml" target="lib\netstandard2.0" />
+</files>
 </package>

@@ -22,5 +22,9 @@ branches:
 #  Build Cache                    #
 #---------------------------------#
 cache:
-- Source\packages -> Source\**\packages.config
 - tools -> setup.cake
+
+#---------------------------------#
+#  Build Image                    #
+#---------------------------------#
+image: Visual Studio 2017
