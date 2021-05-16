@@ -11,7 +11,7 @@
     <projectUrl>https://github.com/cake-contrib/Cake.DotEnv.Module</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <copyright>Copyright (c) 2017-2021 Cake Contributors</copyright>
-    <tags>Cake, Script, Build, DotEnv, Module</tags>
+    <tags>cake dotenv dot-env env cake-addin cake-build cake-contrib addin script build</tags>
   </metadata>
   <files>
   </files>
