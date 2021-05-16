@@ -9,6 +9,7 @@
     <summary>Cake Module for using the dotenv file for settings local environment variables.</summary>
     <licenseUrl>https://github.com/cake-contrib/Cake.DotEnv.Module/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/cake-contrib/Cake.DotEnv.Module</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics/png/module/cake-contrib-module-medium.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <copyright>Copyright (c) 2017-2021 Cake Contributors</copyright>
     <tags>cake dotenv dot-env env cake-addin cake-build cake-contrib addin script build</tags>
