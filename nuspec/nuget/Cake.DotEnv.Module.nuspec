@@ -3,15 +3,15 @@
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <id>Cake.DotEnv.Module</id>
     <version>0.0.0</version>
-    <authors>cake-contrib</authors>
-    <owners>cake-contrib</owners>
+    <authors>Jamie Phillips</authors>
+    <owners>Jamie Phillips</owners>
     <description>Cake Module for using the dotenv file for settings local environment variables.</description>
     <summary>Cake Module for using the dotenv file for settings local environment variables.</summary>
     <licenseUrl>https://github.com/cake-contrib/Cake.DotEnv.Module/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/cake-contrib/Cake.DotEnv.Module</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics/png/module/cake-contrib-module-medium.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <copyright>Copyright (c) 2017-2021 Cake Contributors</copyright>
+    <copyright>Copyright (c) Jamie Phillips 2017 - Present</copyright>
     <tags>cake dotenv dot-env env cake-addin cake-build cake-contrib addin script build</tags>
   </metadata>
   <files>
